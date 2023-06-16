@@ -1,0 +1,13 @@
+#ifndef ISTS_HPP
+#define ISTS_HPP
+
+enum {
+	IST_PAGE_FAULT = 1,
+	IST_DOUBLE_FAULT = 2,
+	IST_GENERAL_PROTECTION_FAULT = 3,
+	IST_APIC_TIMER = 4,
+
+	N_ISTS = 4
+};
+
+#endif
